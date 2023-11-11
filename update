@@ -1,0 +1,139 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const axios = require('axios');
+const base64 = require('base-64');
+const utf8 = require('utf8');
+const et = require('elementtree');
+
+const corpora = require('./corpora.json');
+
+repoUrlRx = /https:\/\/github.com(\/[-.a-zA-Z]+\/[-.a-zA-Z]+)/i;
+
+const token = process.env['GITHUB_API_TOKEN'] || null;
+if (token) {
+  console.log('using $GITHUB_API_TOKEN');
+  axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
+}
+
+function getCorpusXmlUrl (repoUrl) {
+  const m = repoUrl.match(repoUrlRx)
+  if (!m) {
+    console.warn(`Cannot construct URL to corpus.xml for ${repoUrl}`);
+    return undefined;
+  }
+  return `https://api.github.com/repos${m[1]}/contents/corpus.xml`;
+}
+
+async function getCorpusXml (repo) {
+  const url = getCorpusXmlUrl(repo);
+  if (!url) {
+    return;
+  }
+
+  let xml;
+  try {
+    const response = await axios.get(url);
+    xml = utf8.decode(base64.decode(response.data.content));
+  } catch (error) {
+    console.warn(`Failed to access ${url}. Status: ${error.response.status}`);
+  }
+  return xml;
+}
+
+function normalizeSpace(text) {
+  return text.replace(/(^\s+|\s+$)/g, '').replace(/\s+/g, ' ');
+}
+
+function transform (elems) {
+  let text = '';
+  elems.forEach(e => {
+    if (e.tag === 'ref') {
+      text += '['
+    }
+    text += e.text || '';
+    if(e._children) {
+      text += transform(e._children);
+    }
+    if (e.tag === 'ref') {
+      text += `](${e.attrib.target})`
+    }
+    text += e.tail || '';
+  })
+  return text;
+}
+
+function getStatus (etree) {
+  // first check for revisionDesc/@status
+  const revisionDesc = etree.find('.//revisionDesc[@status]');
+  if (revisionDesc) {
+    return revisionDesc.attrib.status;
+  }
+
+  // otherwise check for revisionDesc/change/@status
+  const changes = etree.findall('.//revisionDesc/change[@status]').sort((a, b) => {
+    // sorting by 'when' attribute in descending order
+    if (a.attrib.when > b.attrib.when) {
+      return -1;
+    }
+    if (a.attrib.when < b.attrib.when) {
+      return 1;
+    }
+    return 0;
+  });
+  if (changes.length > 0) {
+    return changes[0].attrib.status
+  }
+
+  return null;
+}
+
+function getLicense (etree) {
+  const license = etree.find('.//availability/licence');
+  if (!license) {
+    return null;
+  }
+  const name = normalizeSpace(transform([license]));
+  const licObj = {name};
+  if (license.attrib.target) {
+    licObj.url = license.attrib.target;
+  }
+  return licObj;
+}
+
+async function getCorpusInfo (repo) {
+  const xml = await getCorpusXml(repo);
+  if (!xml) return {};
+  const corpusInfo = et.parse(xml);
+  const projectDesc = corpusInfo.findall('.//encodingDesc/projectDesc');
+  const description = normalizeSpace(transform(projectDesc));
+  const title = corpusInfo.findtext('.//titleStmt/title');
+  const status = getStatus(corpusInfo);
+  const license = getLicense(corpusInfo);
+  const info = { title, description };
+  if (status) {
+    info.status = status;
+  }
+  if (license) {
+    info.license = license;
+  }
+  return info;
+}
+
+async function update () {
+  // const info = await getCorpusInfo(corpora[22].repository)
+  // console.log(info);
+  const updatedCorpora = [];
+  for (const corpus of corpora) {
+    console.log(corpus.repository);
+    const info = await getCorpusInfo(corpus.repository)
+    console.log({info});
+    updatedCorpora.push({...corpus, ...info});
+  }
+  fs.writeFileSync(
+    './corpora.json',
+    JSON.stringify(updatedCorpora, null, 2) + '\n'
+  );
+}
+
+update();
