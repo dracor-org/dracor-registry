@@ -7,7 +7,18 @@ This registry provides a list of available and planned
 data is collected from the `corpus.xml` files in the individual corpus
 repositories.
 
-The list is available in JSON format, see [corpora.json](corpora.json).
+The list is available in JSON format, see [corpora.json](corpora.json) or as a
+node package:
+
+```sh
+npm install @dracor/registry
+```
+
+Then package exports the corpora list as default:
+
+```js
+const corpora = require('@dracor/registry');
+```
 
 ## Status
 
@@ -53,4 +64,13 @@ You need to have `node` and `yarn` installed.
 cd dracor-registry
 yarn
 yarn update
+```
+
+## Publication
+
+To release a new version to npmjs.com you need to be a member of the
+[dracor organization](https://www.npmjs.com/org/dracor).
+
+```sh
+yarn release
 ```
