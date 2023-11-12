@@ -10,5 +10,8 @@
     "base-64": "^1.0.0",
     "elementtree": "^0.1.7",
     "utf8": "^3.0.0"
+  },
+  "scripts": {
+    "update": "./update"
   }
 }
