@@ -144,7 +144,7 @@
     "title": "Roman Drama Corpus",
     "repository": "https://github.com/dracor-org/romdracor",
     "status": "published",
-    "description": "Derived from [Perseus Digital Library](http://www.perseus.tufts.edu/hopper/opensource/download), updated to [TEI P5](https://tei-c.org/guidelines/p5/) and enhanced by Julia Jennifer Beine (Ruhr University Bochum), Frank Fischer and Boris Orekhov (both Higher School of Economics, Moscow). Features 36 plays (20 comedies by Plautus, 6 comedies by Terence, 10 tragedies by Seneca). For corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/romdracor).",
+    "description": "Derived from [Perseus Digital Library](http://www.perseus.tufts.edu/hopper/opensource/download), updated to [TEI P5](https://tei-c.org/guidelines/p5/) and enhanced by Julia Jennifer Beine and Frank Fischer (both Freie Universität Berlin). Features 36 plays (20 comedies by Plautus, 6 comedies by Terence, 10 tragedies by Seneca). For corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/romdracor).",
     "license": {
       "name": "CC BY-SA 3.0 US",
       "url": "https://creativecommons.org/licenses/by-sa/3.0/us/"
