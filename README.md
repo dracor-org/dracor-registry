@@ -50,6 +50,12 @@ The [update script](#update) uses either the `status` attribute of the
 `revisionDesc` element or, if this is not available, the `status` attribute of
 the latest `change` element (i.e. the one with the most recent date in `@when`).
 
+## Query
+
+```
+jq '.[] | select(.name == "ger")'  < corpora.json
+```
+
 ## Update
 
 The registry can be updated by running the update script (`yarn update`). This
