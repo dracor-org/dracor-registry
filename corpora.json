@@ -42,19 +42,19 @@
     "name": "dutch",
     "title": "Dutch Drama Corpus",
     "repository": "https://github.com/dracor-org/dutchdracor",
-    "status": "draft",
-    "description": "Edited by Lucas van der Deijl (et al.?)",
+    "status": "published",
+    "description": "Edited by Lucas van der Deijl. Features 98 Dutch-language plays from 1600-1800. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/dutchdracor).",
     "license": {
-      "name": "CC0 1.0",
-      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      "name": "CC0",
+      "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
     }
   },
   {
-    "name": "ep",
-    "title": "EarlyPrint Drama Corpus",
-    "repository": "https://github.com/dracor-org/epdracor",
+    "name": "eng",
+    "title": "English Drama Corpus",
+    "repository": "https://github.com/dracor-org/engdracor",
     "status": "draft",
-    "description": "Based on the EarlyPrint Project (https://earlyprint.org). Edited by Luca Giovannini, Daniil Skorinkin, Ingo Börner et al. Currently undergoing speaker disambiguation and cleanup using [epdracor-whois](https://github.com/dracor-org/epdracor-whois)."
+    "description": "Edited by Luca Giovannini and the DraCor Team. Features more than 400 English-language plays from the 1550s to the 1700s derived from the [EarlyPrint Project](https://earlyprint.org). For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/engdracor)."
   },
   {
     "name": "fre",
@@ -72,7 +72,7 @@
     "title": "German Drama Corpus",
     "repository": "https://github.com/dracor-org/gerdracor",
     "status": "published",
-    "description": "Edited by Frank Fischer and Peer Trilcke. Features more than 600 German-language plays from the 1540s to the 1940s. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/gerdracor).",
+    "description": "Edited by Frank Fischer and Peer Trilcke. Features 700 German-language plays from the 1500s to the 1940s. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/gerdracor).",
     "license": {
       "name": "CC0",
       "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
@@ -83,7 +83,7 @@
     "title": "German Shakespeare Drama Corpus",
     "repository": "https://github.com/dracor-org/gershdracor",
     "status": "published",
-    "description": "Edited by [Frank Fischer](https://lehkost.github.io/). This corpus contains all 37 of Shakespeare's plays in their German translations published by Schlegel and Tieck, in the edition of Aufbau-Verlag Berlin/Weimar (3rd edition 1975), which is based on the last edition published during Schlegel's lifetime (3rd edition 1843/44). The digitised print edition was procured from [Zeno.org](http://www.zeno.org/nid/20005683920) (via TextGrid Repository), which also provided an additional play (»Die beiden edlen Vettern«) that Shakespeare is now considered to have co-authored. This is a first beta version of the corpus. For a full description please see the [README on GitHub](https://github.com/dracor-org/gershdracor).",
+    "description": "Edited by [Frank Fischer](https://lehkost.github.io/). This corpus contains all 37 of Shakespeare's plays in their German translations published by Schlegel and Tieck, in the edition of Aufbau-Verlag Berlin/Weimar (3rd edition 1975), which is based on the last edition published during Schlegel's lifetime (3rd edition 1843/44). The digitised print edition was procured from [Zeno.org](http://www.zeno.org/nid/20005683920) (via TextGrid Repository), which also provided an additional play (»Die beiden edlen Vettern«) that Shakespeare is now considered to have co-authored. For a full description please see the [README on GitHub](https://github.com/dracor-org/gershdracor).",
     "license": {
       "name": "CC0",
       "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
@@ -94,7 +94,7 @@
     "title": "Greek Drama Corpus",
     "repository": "https://github.com/dracor-org/greekdracor",
     "status": "published",
-    "description": "Derived from [Perseus Digital Library](http://www.perseus.tufts.edu/hopper/opensource/download), features 39 ancient Greek plays. Maintained by Boris Orekhov, Julia Jennifer Beine and Frank Fischer. Corpus description and list of enhancements in the [README on GitHub](https://github.com/dracor-org/greekdracor).",
+    "description": "39 plays derived from [Perseus Digital Library](http://www.perseus.tufts.edu/hopper/opensource/download), licenced under CC BY-SA 3.0 US. Menander's comedy \"Dyskolos\" derived from Wikisource, licenced under CC BY-SA 3.0. Maintained by Julia Jennifer Beine and Frank Fischer. Corpus description and list of enhancements in the README on GitHub.",
     "license": {
       "name": "CC BY-SA 3.0 US",
       "url": "https://creativecommons.org/licenses/by-sa/3.0/us/"
@@ -112,7 +112,7 @@
     "title": "Hungarian Drama Corpus",
     "repository": "https://github.com/dracor-org/hundracor",
     "status": "published",
-    "description": "Edited by the Department of Digital Humanities at Eötvös Loránd University (ELTE) and the National Laboratory for Digital Heritage. Currently featuring 40 Hungarian-language plays from the 16th to the 20th century. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/hundracor)."
+    "description": "Edited by the Department of Digital Humanities at Eötvös Loránd University (ELTE) and the National Laboratory for Digital Heritage. Currently featuring 74 Hungarian-language plays from the 16th to the 20th century. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/hundracor)."
   },
   {
     "name": "ita",
@@ -216,6 +216,10 @@
     "title": "Yiddish Drama Corpus",
     "repository": "https://github.com/dracor-org/yidracor",
     "status": "proposed",
-    "description": "Edited by Sinai Rusinek."
+    "description": "Work on this corpus started at the [DraCor Onboarding Workshop for Hebrew and Yiddish](https://www.ada.fu-berlin.de/en/kalender/HeDraCorWorkshop.html) in September 2023. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/yidracor).",
+    "license": {
+      "name": "CC0",
+      "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    }
   }
 ]
