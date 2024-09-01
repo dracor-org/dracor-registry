@@ -17,7 +17,8 @@ npm install @dracor/registry
 Then package exports the corpora list as default:
 
 ```js
-const corpora = require('@dracor/registry');
+import corpora from '@dracor/registry';
+console.log(corpora);
 ```
 
 ## Status

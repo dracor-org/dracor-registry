@@ -6,7 +6,8 @@
   "homepage": "https://github.com/dracor-org/dracor-registry#readme",
   "author": "Carsten Milling <cmil@hashtable.de>",
   "license": "MIT",
-  "main": "index.js",
+  "main": "corpora.js",
+  "type": "module",
   "files": [
     "index.js",
     "corpora.js"
