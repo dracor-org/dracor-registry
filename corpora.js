@@ -215,7 +215,7 @@ export default [
     "name": "yi",
     "title": "Yiddish Drama Corpus",
     "repository": "https://github.com/dracor-org/yidracor",
-    "status": "proposed",
+    "status": "published",
     "description": "Work on this corpus started at the [DraCor Onboarding Workshop for Hebrew and Yiddish](https://www.ada.fu-berlin.de/en/kalender/HeDraCorWorkshop.html) in September 2023. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/yidracor).",
     "license": {
       "name": "CC0",
