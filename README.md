@@ -71,6 +71,8 @@ You need to have `node` and `yarn` installed.
 cd dracor-registry
 yarn
 yarn update
+# or using personal access token for GitHub API
+GITHUB_API_TOKEN=yourpersonalaccesstoken yarn update
 ```
 
 ## Publication
