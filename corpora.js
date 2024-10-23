@@ -68,6 +68,17 @@ export default [
     }
   },
   {
+    "name": "georg",
+    "title": "Georgian Drama Corpus",
+    "repository": "https://github.com/dracor-org/georgdracor",
+    "description": "Edited by Irakli Khvedelidze.",
+    "license": {
+      "name": "CC0",
+      "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    },
+    "status": "draft"
+  },
+  {
     "name": "ger",
     "title": "German Drama Corpus",
     "repository": "https://github.com/dracor-org/gerdracor",
