@@ -140,6 +140,17 @@
     "description": "Edited by Ingo Börner and Alexander Winkler. Currently inactive. See https://github.com/alexander-winkler/JesDraCor."
   },
   {
+    "name": "neolat",
+    "title": "Neo-Latin Drama Corpus",
+    "repository": "https://github.com/dracor-org/neolatdracor",
+    "status": "draft",
+    "description": "Neo-Latin Drama Corpus, dramatic texts in [TEI P5](https://tei-c.org/guidelines/p5/) format. Licenced under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Edited by Julia Jennifer Beine (Ruhr University Bochum), maintained by Ingo Börner (University of Potsdam), Frank Fischer (Free University Berlin), and Carsten Milling (University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. For a full corpus description, the contributing working groups, and responsible editors, please consult the [README](https://github.com/dracor-org/neolatdracor) on GitHub.",
+    "license": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+  {
     "name": "pol",
     "title": "Polish Drama Corpus",
     "repository": "https://github.com/dracor-org/poldracor",
