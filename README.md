@@ -81,5 +81,6 @@ To release a new version to npmjs.com you need to be a member of the
 [dracor organization](https://www.npmjs.com/org/dracor).
 
 ```sh
+yarn npm login
 yarn release
 ```
