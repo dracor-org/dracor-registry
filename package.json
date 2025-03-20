@@ -7,10 +7,14 @@
   "author": "Carsten Milling <cmil@hashtable.de>",
   "license": "MIT",
   "main": "corpora.js",
+  "types": "corpora.d.ts",
   "type": "module",
   "files": [
     "index.js",
-    "corpora.js"
+    "index.d.ts",
+    "corpora.js",
+    "corpora.d.ts",
+    "corpora.json"
   ],
   "devDependencies": {
     "axios": "^1.8.4",
