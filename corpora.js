@@ -130,7 +130,7 @@ export default [
     "title": "Italian Drama Corpus",
     "repository": "https://github.com/dracor-org/itadracor",
     "status": "published",
-    "description": "Derived from [Biblioteca Italiana](http://www.bibliotecaitaliana.it/), maintained by Frank Fischer and Carsten Milling. Features 139 Italian plays from 15th to 20th century. For corpus description and list of enhancements please consult the [README on GitHub](https://github.com/dracor-org/itadracor)."
+    "description": "Derived from [Biblioteca Italiana](http://www.bibliotecaitaliana.it/), maintained by Frank Fischer, Carsten Milling, and Luca Giovannini. Features 157 Italian plays from 15th to 20th century. For corpus description and list of enhancements please consult the [README on GitHub](https://github.com/dracor-org/itadracor)."
   },
   {
     "name": "jes",
