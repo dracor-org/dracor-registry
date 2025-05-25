@@ -24,8 +24,8 @@
     "utf8": "^3.0.0"
   },
   "scripts": {
-    "update": "./update",
-    "release": "./prepublish.sh && yarn npm publish --access public"
+    "update-corpora": "./update",
+    "release": "./prepublish.sh && pnpm publish --access public"
   },
-  "packageManager": "yarn@4.7.0+sha512.5a0afa1d4c1d844b3447ee3319633797bcd6385d9a44be07993ae52ff4facabccafb4af5dcd1c2f9a94ac113e5e9ff56f6130431905884414229e284e37bb7c9"
+  "packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977"
 }

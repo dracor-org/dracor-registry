@@ -59,20 +59,20 @@ jq '.[] | select(.name == "ger")'  < corpora.json
 
 ## Update
 
-The registry can be updated by running the update script (`yarn update`). This
-script retrieves the corpus.xml from each repository listed in `corpora.json`,
-extracts the relevant meta data and updates the respective fields in
-`corpora.json`. Fields that exist in `corpora.json` but have no equivalent in
-the `corpus.xml` are left untouched.
-
-You need to have `node` and `yarn` installed.
+The registry can be updated by running the update script
+(`pnpm run update-corpora`). This script retrieves the corpus.xml from each
+repository listed in `corpora.json`, extracts the relevant meta data and updates
+the respective fields in `corpora.json`. Fields that exist in `corpora.json` but
+have no equivalent in the `corpus.xml` are left untouched. You need to have
+`node` installed and `corepack` enabled (run `corepack enable` once after
+installing node).
 
 ```sh
 cd dracor-registry
-yarn
-yarn update
+pnpm install
+pnpm update-corpora
 # or using personal access token for GitHub API
-GITHUB_API_TOKEN=yourpersonalaccesstoken yarn update
+GITHUB_API_TOKEN=yourpersonalaccesstoken pnpm update-corpora
 ```
 
 ## Publication
@@ -81,6 +81,5 @@ To release a new version to npmjs.com you need to be a member of the
 [dracor organization](https://www.npmjs.com/org/dracor).
 
 ```sh
-yarn npm login
-yarn release
+pnpm release
 ```
