@@ -10,7 +10,7 @@
     "name": "am",
     "title": "American Drama Corpus",
     "repository": "https://github.com/dracor-org/amdracor",
-    "status": "proposed",
+    "status": "published",
     "description": "Edited by Dennis Mischke, Luca Giovannini, Daniil Skorinkin. A vanilla corpus is being prepared for DH2024."
   },
   {
@@ -53,7 +53,7 @@
     "name": "eng",
     "title": "English Drama Corpus",
     "repository": "https://github.com/dracor-org/engdracor",
-    "status": "draft",
+    "status": "published",
     "description": "Edited by Luca Giovannini and the DraCor Team. Features more than 400 English-language plays from the 1550s to the 1700s derived from the [EarlyPrint Project](https://earlyprint.org). For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/engdracor)."
   },
   {
@@ -154,7 +154,7 @@
     "name": "pol",
     "title": "Polish Drama Corpus",
     "repository": "https://github.com/dracor-org/poldracor",
-    "status": "draft",
+    "status": "published",
     "description": "Edited by members of Historical Pragmalinguistic Team (Magdalena Pastuch, Barbara Mitrenga, Kinga Wąsińska) affiliated to the Institute of Linguistics of University of Silesia in Katowice with technical support Jan Wieczorek, Tomasz Bernaś and Tomasz Naskręt from CLARIN-PL/Wrocław University of Science and Technology. Features about 50 Polish-language plays from 1772 to 1939 with social, popular, and common themes reflecting the colloquial language of that era. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/poldracor).",
     "license": {
       "name": "CC0",
