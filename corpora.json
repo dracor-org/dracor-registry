@@ -14,6 +14,17 @@
     "description": "Edited by Dennis Mischke, Luca Giovannini, Daniil Skorinkin. A vanilla corpus is being prepared for DH2024."
   },
   {
+    "name": "ar",
+    "repository": "https://github.com/dracor-org/ardracor",
+    "status": "draft",
+    "title": "Argentinian Drama Corpus",
+    "description": "ArDraCor is a growing corpus of TEI-encoded of Argentinian plays (18th century–1920). It is a joint effort between scholars and students from the University of Rostock (Germany) and the HD LAB-CONICET (Argentina).",
+    "license": {
+      "name": "CC0",
+      "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    }
+  },
+  {
     "name": "bash",
     "title": "Bashkir Drama Corpus",
     "repository": "https://github.com/dracor-org/bashdracor",
