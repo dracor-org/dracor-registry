@@ -18,7 +18,7 @@
     "repository": "https://github.com/dracor-org/ardracor",
     "status": "draft",
     "title": "Argentinian Drama Corpus",
-    "description": "ArDraCor is a growing corpus of TEI-encoded of Argentinian plays (18th century–1920). It is a joint effort between scholars and students from the University of Rostock (Germany) and the HD LAB-CONICET (Argentina).",
+    "description": "ArDraCor is a growing corpus of TEI-encoded of Argentinian plays (18th century–1920). It is a joint effort between scholars and students from the University of Rostock (Germany) and the HD LAB-CONICET (Argentina). For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/ardracor).",
     "license": {
       "name": "CC0",
       "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
@@ -144,6 +144,17 @@
     "description": "Derived from [Biblioteca Italiana](http://www.bibliotecaitaliana.it/), maintained by Frank Fischer, Carsten Milling, and Luca Giovannini. Features 157 Italian plays from 15th to 20th century. For corpus description and list of enhancements please consult the [README on GitHub](https://github.com/dracor-org/itadracor)."
   },
   {
+    "name": "ibs",
+    "repository": "https://github.com/dracor-org/ibsdracor",
+    "status": "draft",
+    "title": "Ibsen Drama Corpus",
+    "description": "",
+    "license": {
+      "name": "CC0",
+      "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    }
+  },
+  {
     "name": "jes",
     "title": "Jesuit Latin Drama Corpus",
     "repository": "https://github.com/dracor-org/jesdracor",
@@ -155,7 +166,7 @@
     "title": "Neo-Latin Drama Corpus",
     "repository": "https://github.com/dracor-org/neolatdracor",
     "status": "draft",
-    "description": "Neo-Latin Drama Corpus, dramatic texts in [TEI P5](https://tei-c.org/guidelines/p5/) format. Licenced under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Edited by Julia Jennifer Beine (Ruhr University Bochum), maintained by Ingo Börner (University of Potsdam), Frank Fischer (Free University Berlin), and Carsten Milling (University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. For a full corpus description, the contributing working groups, and responsible editors, please consult the [README](https://github.com/dracor-org/neolatdracor) on GitHub.",
+    "description": "Neo-Latin Drama Corpus, dramatic texts in [TEI P5](https://tei-c.org/guidelines/p5/) format. Licenced under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Edited by Julia Jennifer Beine (Julius-Maximilians-Universität Würzburg), maintained by Ingo Börner (University of Potsdam), Frank Fischer (Freie Universität Berlin), and Carsten Milling (University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. For a full corpus description, the contributing working groups, and responsible editors, please consult the [README](https://github.com/dracor-org/neolatdracor) on GitHub.",
     "license": {
       "name": "CC0 1.0",
       "url": "https://creativecommons.org/publicdomain/zero/1.0/"
