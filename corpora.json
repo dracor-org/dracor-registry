@@ -54,7 +54,7 @@
     "title": "Dutch Drama Corpus",
     "repository": "https://github.com/dracor-org/dutchdracor",
     "status": "published",
-    "description": "Edited by Lucas van der Deijl. Features 180 Dutch-language plays from 1539-1786. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/dutchdracor).",
+    "description": "Edited by Lucas van der Deijl. Features 186 Dutch-language plays from 1539-1786. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/dutchdracor).",
     "license": {
       "name": "CC0",
       "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
@@ -187,7 +187,7 @@
     "name": "ro",
     "title": "Romanian Drama Corpus",
     "repository": "https://github.com/dracor-org/rodracor",
-    "status": "draft",
+    "status": "published",
     "description": "Edited by Andrei Terian (coordinator), Ovio Olaru (deputy coordinator), Cristina Cojocaru (technical coordinator), Victor Cobuz, Alexandra Oprescu, Andreea Popescu, Teodora Susarenco, and Snejana Ung, members of the [METRA project](https://grants.ulbsibiu.ro/metra/) affiliated to the Lucian Blaga University of Sibiu. Features 20 Romanian-language plays from 1849 to 1944. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/rodracor).",
     "license": {
       "name": "CC0",
