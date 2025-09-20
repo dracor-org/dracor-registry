@@ -146,9 +146,9 @@ export default [
   {
     "name": "ibs",
     "repository": "https://github.com/dracor-org/ibsdracor",
-    "status": "draft",
+    "status": "published",
     "title": "Ibsen Drama Corpus",
-    "description": "",
+    "description": "This corpus is developed from HISe's scholarly edition of the Henrik Ibsen's Writings, which comprises all of Ibsen's published (and many unpublished) works. The project was started in 1999 and completed in 2010. It is maintained by the Centre for Ibsen Studies at the University of Oslo. The works included in this DraCor corpus are all of Ibsen's published dramas, as well as his unpublished drama manuscripts. Also included are various versions of a selection of plays. The reason for this inclusion is that the versions often carry significant differences. Some may have been updated with a modernised language, and others in other formats. However, the versions typically carry with them semantic differences, which may be of interest for some areas of research.",
     "license": {
       "name": "CC0",
       "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
@@ -166,7 +166,7 @@ export default [
     "title": "Neo-Latin Drama Corpus",
     "repository": "https://github.com/dracor-org/neolatdracor",
     "status": "draft",
-    "description": "Neo-Latin Drama Corpus, dramatic texts in [TEI P5](https://tei-c.org/guidelines/p5/) format. Licenced under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Edited by Julia Jennifer Beine (Julius-Maximilians-Universität Würzburg), maintained by Ingo Börner (University of Potsdam), Frank Fischer (Freie Universität Berlin), and Carsten Milling (University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. For a full corpus description, the contributing working groups, and responsible editors, please consult the [README](https://github.com/dracor-org/neolatdracor) on GitHub.",
+    "description": "Neo-Latin Drama Corpus, dramatic texts in [TEI P5](https://tei-c.org/guidelines/p5/) format. Licenced under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Edited by Julia Jennifer Beine (Julius-Maximilians-Universität Würzburg), maintained by Ingo Börner and Carsten Milling (both University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. For a full corpus description, the contributing working groups, and responsible editors, please consult the [README](https://github.com/dracor-org/neolatdracor) on GitHub.",
     "license": {
       "name": "CC0 1.0",
       "url": "https://creativecommons.org/publicdomain/zero/1.0/"
@@ -188,7 +188,7 @@ export default [
     "title": "Romanian Drama Corpus",
     "repository": "https://github.com/dracor-org/rodracor",
     "status": "published",
-    "description": "Edited by Andrei Terian (coordinator), Ovio Olaru (deputy coordinator), Cristina Cojocaru (technical coordinator), Victor Cobuz, Alexandra Oprescu, Andreea Popescu, Teodora Susarenco, and Snejana Ung, members of the [METRA project](https://grants.ulbsibiu.ro/metra/) affiliated to the Lucian Blaga University of Sibiu. Features 20 Romanian-language plays from 1849 to 1944. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/rodracor).",
+    "description": "Edited by Andrei Terian (coordinator), Ovio Olaru (deputy coordinator), Cristina Cojocaru (technical coordinator), Victor Cobuz, Alexandra Oprescu, Andreea Popescu, Teodora Susarenco, and Snejana Ung, members of the [METRA project](https://grants.ulbsibiu.ro/metra/) affiliated to the Lucian Blaga University of Sibiu. Features 30 Romanian-language plays from 1849 to 1944. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/rodracor).",
     "license": {
       "name": "CC0",
       "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
@@ -264,7 +264,11 @@ export default [
     "title": "Ukrainian Drama Corpus",
     "repository": "https://github.com/dracor-org/udracor",
     "status": "published",
-    "description": "This repository contains texts of Ukrainian plays written in the 19th and early 20th century."
+    "description": "This corpus contains Ukrainian plays from the 19th and early 20th centuries. For a detailed description and full credits, please refer to the [README on GitHub](https://github.com/dracor-org/udracor).",
+    "license": {
+      "name": "CC0",
+      "url": "https://creativecommons.org/public-domain/cc0/"
+    }
   },
   {
     "name": "yi",
