@@ -1,6 +1,6 @@
 {
   "name": "@dracor/registry",
-  "version": "1.12.1",
+  "version": "1.13.0",
   "description": "Registry of DraCor corpora",
   "repository": "https://github.com/dracor-org/dracor-registry",
   "homepage": "https://github.com/dracor-org/dracor-registry#readme",
