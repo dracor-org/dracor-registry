@@ -18,7 +18,7 @@
     "repository": "https://github.com/dracor-org/ardracor",
     "status": "draft",
     "title": "Argentinian Drama Corpus",
-    "description": "ArDraCor is a growing corpus of TEI-encoded of Argentinian plays (18th century–1920). It is a joint effort between scholars and students from the University of Rostock (Germany) and the HD LAB-CONICET (Argentina). For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/ardracor).",
+    "description": "ArDraCor is a growing corpus of TEI-encoded Argentinian plays (18th century–1920). It is a joint effort between the working group RosDH from the University of Rostock (Germany) and the HD LAB-CONICET (Argentina). For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/ardracor).",
     "license": {
       "name": "CC0",
       "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
@@ -68,6 +68,17 @@
     "description": "Edited by Luca Giovannini and the DraCor Team. Features more than 400 English-language plays from the 1550s to the 1700s derived from the [EarlyPrint Project](https://earlyprint.org). For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/engdracor)."
   },
   {
+    "name": "est",
+    "title": "Estonian Drama Corpus",
+    "repository": "https://github.com/dracor-org/estdracor",
+    "description": "Coming soon.",
+    "status": "draft",
+    "license": {
+      "name": "CC0",
+      "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    }
+  },
+  {
     "name": "fre",
     "title": "French Drama Corpus",
     "repository": "https://github.com/dracor-org/fredracor",
@@ -94,7 +105,7 @@
     "title": "German Drama Corpus",
     "repository": "https://github.com/dracor-org/gerdracor",
     "status": "published",
-    "description": "Edited by Frank Fischer and Peer Trilcke. Features more than 700 German-language plays from the 1500s to the 1940s. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/gerdracor).",
+    "description": "Edited by Frank Fischer and Peer Trilcke. Features more than 750 German-language plays from the 1500s to the 1940s. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/gerdracor).",
     "license": {
       "name": "CC0",
       "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
@@ -166,7 +177,7 @@
     "title": "Neo-Latin Drama Corpus",
     "repository": "https://github.com/dracor-org/neolatdracor",
     "status": "draft",
-    "description": "Neo-Latin Drama Corpus, dramatic texts in [TEI P5](https://tei-c.org/guidelines/p5/) format. Licenced under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Edited by Julia Jennifer Beine (Julius-Maximilians-Universität Würzburg), maintained by Ingo Börner and Carsten Milling (both University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. For a full corpus description, the contributing working groups, and responsible editors, please consult the [README](https://github.com/dracor-org/neolatdracor) on GitHub.",
+    "description": "Neo-Latin Drama Corpus, dramatic texts in [TEI P5](https://tei-c.org/guidelines/p5/) format. Licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Edited by Julia Jennifer Beine (University of Würzburg), maintained by Carsten Milling and Ingo Börner (both University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. For a full corpus description, the contributing working groups, and responsible editors, please consult the [README](https://github.com/dracor-org/neolatdracor) on GitHub.",
     "license": {
       "name": "CC0 1.0",
       "url": "https://creativecommons.org/publicdomain/zero/1.0/"
