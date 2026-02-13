@@ -148,6 +148,16 @@ export default [
     "description": "Edited by the Department of Digital Humanities at Eötvös Loránd University (ELTE) and the National Laboratory for Digital Heritage. Currently featuring 74 Hungarian-language plays from the 16th to the 20th century. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/hundracor)."
   },
   {
+    "name": "indie",
+    "title": "Indian English Drama Corpus",
+    "repository": "https://github.com/dracor-org/indiedracor",
+    "status": "proposed",
+    "license": {
+      "name": "CC0",
+      "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
+    }
+  },
+  {
     "name": "ita",
     "title": "Italian Drama Corpus",
     "repository": "https://github.com/dracor-org/itadracor",
