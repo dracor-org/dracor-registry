@@ -183,6 +183,17 @@ export default [
     "description": "Edited by Ingo Börner and Alexander Winkler. Currently inactive. See https://github.com/alexander-winkler/JesDraCor."
   },
   {
+    "name": "lacy",
+    "repository": "https://github.com/dracor-org/lacydracor#dracor",
+    "title": "Lacy Drama Corpus",
+    "description": "A sample of 100 plays taken from T.H. Lacy's Acting Edition of Victorian Plays (1848-1873)",
+    "status": "proposed",
+    "license": {
+      "name": "The Lacy Project waives all rights to the TEI encoding applied to this material, which is believed to be in the public domain. You may copy, modify, distribute, or perform this work freely.",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  },
+  {
     "name": "neolat",
     "title": "Neo-Latin Drama Corpus",
     "repository": "https://github.com/dracor-org/neolatdracor",
