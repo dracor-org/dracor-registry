@@ -16,7 +16,7 @@ export default [
   {
     "name": "ar",
     "repository": "https://github.com/dracor-org/ardracor",
-    "status": "draft",
+    "status": "published",
     "title": "Argentinian Drama Corpus",
     "description": "ArDraCor is a growing corpus of TEI-encoded Argentinian plays (18th century–1920). It is a joint effort between the working group RosDH from the University of Rostock (Germany) and the HD LAB-CONICET (Argentina). For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/ardracor).",
     "license": {
@@ -54,7 +54,7 @@ export default [
     "title": "Dutch Drama Corpus",
     "repository": "https://github.com/dracor-org/dutchdracor",
     "status": "published",
-    "description": "Edited by Lucas van der Deijl. Features 186 Dutch-language plays from 1539-1786. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/dutchdracor).",
+    "description": "Edited by Lucas van der Deijl. Features 216 Dutch-language plays from 1539-1786. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/dutchdracor).",
     "license": {
       "name": "CC0",
       "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
