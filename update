@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 import fs from 'fs';
-import axios from 'axios';
 import base64 from 'base-64';
 import utf8 from 'utf8';
 import et from 'elementtree';
@@ -11,9 +10,10 @@ import corpora from './corpora.json' with {type: 'json'};
 const repoUrlRx = /https:\/\/github.com(\/[-.a-zA-Z]+\/[-.a-zA-Z]+)/i;
 
 const token = process.env['GITHUB_API_TOKEN'] || null;
+const defaultHeaders = {};
 if (token) {
   console.log('using $GITHUB_API_TOKEN');
-  axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
+  defaultHeaders['Authorization'] = `Bearer ${token}`;
 }
 
 function getCorpusXmlUrl(repoUrl) {
@@ -33,10 +33,15 @@ async function getCorpusXml(repo) {
 
   let xml;
   try {
-    const response = await axios.get(url);
-    xml = utf8.decode(base64.decode(response.data.content));
+    const response = await fetch(url, {headers: defaultHeaders});
+    if (!response.ok) {
+      console.warn(`Failed to access ${url}. Status: ${response.status}`);
+      return;
+    }
+    const data = await response.json();
+    xml = utf8.decode(base64.decode(data.content));
   } catch (error) {
-    console.warn(`Failed to access ${url}. Status: ${error.response.status}`);
+    console.warn(`Failed to access ${url}. ${error.message}`);
   }
   return xml;
 }
