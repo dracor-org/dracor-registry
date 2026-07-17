@@ -151,11 +151,12 @@ export default [
     "name": "indie",
     "title": "Indian English Drama Corpus",
     "repository": "https://github.com/dracor-org/indiedracor",
-    "status": "proposed",
+    "status": "draft",
     "license": {
       "name": "CC0",
       "url": "https://creativecommons.org/share-your-work/public-domain/cc0/"
-    }
+    },
+    "description": "Edited by Simran Bhimjyani and Shanmugapriya T. Features Indian plays written in or translated into English, spanning the 1830s to the present. Public-domain plays are released here under CC0; in-copyright plays are encoded to the same DraCor standard but maintained in a private DraCor instance. For a corpus description and full credits please see the [README on GitHub](https://github.com/dracor-org/indiedracor)."
   },
   {
     "name": "ita",
@@ -198,7 +199,7 @@ export default [
     "title": "Neo-Latin Drama Corpus",
     "repository": "https://github.com/dracor-org/neolatdracor",
     "status": "draft",
-    "description": "Neo-Latin Drama Corpus, dramatic texts in [TEI P5](https://tei-c.org/guidelines/p5/) format. Licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Edited by Julia Jennifer Beine (University of Würzburg), maintained by Carsten Milling and Ingo Börner (both University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. For a full corpus description, the contributing working groups, and responsible editors, please consult the [README](https://github.com/dracor-org/neolatdracor) on GitHub.",
+    "description": "Neo-Latin Drama Corpus, dramatic texts in [TEI P5](https://tei-c.org/guidelines/p5/) format. Licensed under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Edited by Julia Jennifer Beine (University of Würzburg), co-maintained by Carsten Milling (University of Potsdam). The texts in the Neo-Latin Drama Corpus were encoded and contributed by different working groups. For a full corpus description, the contributing working groups, and responsible editors, please consult the [README](https://github.com/dracor-org/neolatdracor) on GitHub.",
     "license": {
       "name": "CC0 1.0",
       "url": "https://creativecommons.org/publicdomain/zero/1.0/"
